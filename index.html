@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Simple modal</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/x-icon" href="dist/images/fav.png">
+        <link href="dist/main.css" rel="stylesheet" media="all"/>
+    </head>
+
+    <body>
+        <button data-toggle="modal" data-target="myModal">Open modal button</button>
+        
+        <div class="modal" id="myModal">
+            <div class="modal__dialog">
+                <div class="modal__title">
+                    Modal title..
+                </div>
+
+                <button class="modal__close"></button>
+
+                <div class="modal__content">
+                    Modal content..
+                </div>
+
+                <div class="modal__footer">
+                    Modal footer...
+                </div>
+            </div>
+        </div>
+
+        <script src="src/js/Modal.js"></script>
+    </body>
+</html>
