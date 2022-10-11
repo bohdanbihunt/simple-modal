@@ -1,1 +1,1 @@
-"# simple-modal" 
+# Simple Modal Box with CSS and JavaScript
